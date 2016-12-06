@@ -14,6 +14,16 @@
 		B6C3BA3D1DF4F19A007DA6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C3BA3B1DF4F19A007DA6D6 /* LaunchScreen.storyboard */; };
 		B6C3BA481DF4F19B007DA6D6 /* PIPOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BA471DF4F19B007DA6D6 /* PIPOTests.swift */; };
 		B6C3BA531DF4F19B007DA6D6 /* PIPOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BA521DF4F19B007DA6D6 /* PIPOUITests.swift */; };
+		B6C3BA661DF4F31B007DA6D6 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BA651DF4F31B007DA6D6 /* ExtensionUIView.swift */; };
+		B6C3BA681DF4F3E9007DA6D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BA671DF4F3E9007DA6D6 /* User.swift */; };
+		B6C3BA6A1DF4F3F7007DA6D6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3BA691DF4F3F7007DA6D6 /* Event.swift */; };
+		B6D813FB1DF4FADF009FE290 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D813FA1DF4FADF009FE290 /* ImageResource.swift */; };
+		B6D813FD1DF50166009FE290 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D813FC1DF50166009FE290 /* Category.swift */; };
+		B6D814011DF506C8009FE290 /* APICommunicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D814001DF506C8009FE290 /* APICommunicatorProtocol.swift */; };
+		B6D814031DF5784D009FE290 /* APICommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D814021DF5784D009FE290 /* APICommunicator.swift */; };
+		B6D814051DF57D02009FE290 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D814041DF57D02009FE290 /* LoginViewController.swift */; };
+		B6D814081DF650ED009FE290 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D814071DF650ED009FE290 /* UserError.swift */; };
+		F22772F844104FF097AF556C /* Pods_PIPO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727384CAC05317E7F8856369 /* Pods_PIPO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3213487F90B988A6116D7D /* Pods_PIPO_PIPOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIPO_PIPOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12296D1CBEB2610CB1CFF5E3 /* Pods_PIPO_PIPOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIPO_PIPOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E7FCA3F269C2F611B368E2 /* Pods-PIPO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIPO.release.xcconfig"; path = "Pods/Target Support Files/Pods-PIPO/Pods-PIPO.release.xcconfig"; sourceTree = "<group>"; };
+		727384CAC05317E7F8856369 /* Pods_PIPO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIPO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C3BA2F1DF4F19A007DA6D6 /* PIPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C3BA321DF4F19A007DA6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C3BA341DF4F19A007DA6D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		B6C3BA4E1DF4F19B007DA6D6 /* PIPOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIPOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C3BA521DF4F19B007DA6D6 /* PIPOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPOUITests.swift; sourceTree = "<group>"; };
 		B6C3BA541DF4F19B007DA6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C3BA651DF4F31B007DA6D6 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		B6C3BA671DF4F3E9007DA6D6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B6C3BA691DF4F3F7007DA6D6 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		B6D813FA1DF4FADF009FE290 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
+		B6D813FC1DF50166009FE290 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B6D814001DF506C8009FE290 /* APICommunicatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICommunicatorProtocol.swift; sourceTree = "<group>"; };
+		B6D814021DF5784D009FE290 /* APICommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICommunicator.swift; sourceTree = "<group>"; };
+		B6D814041DF57D02009FE290 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B6D814071DF650ED009FE290 /* UserError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
+		C18E26E36D6FA14F40ECA812 /* Pods-PIPO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIPO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PIPO/Pods-PIPO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22772F844104FF097AF556C /* Pods_PIPO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B0128C59CEC53863243A81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18E26E36D6FA14F40ECA812 /* Pods-PIPO.debug.xcconfig */,
+				32E7FCA3F269C2F611B368E2 /* Pods-PIPO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6C3BA261DF4F19A007DA6D6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				B6C3BA461DF4F19B007DA6D6 /* PIPOTests */,
 				B6C3BA511DF4F19B007DA6D6 /* PIPOUITests */,
 				B6C3BA301DF4F19A007DA6D6 /* Products */,
+				10B0128C59CEC53863243A81 /* Pods */,
+				B902BFE745060965FA7B2A6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +133,14 @@
 		B6C3BA311DF4F19A007DA6D6 /* PIPO */ = {
 			isa = PBXGroup;
 			children = (
+				B6D814061DF650C3009FE290 /* Errors */,
+				B6D813FF1DF503E2009FE290 /* APICommunicator  */,
+				B6D813FE1DF502A6009FE290 /* Storages */,
+				B6C3BA641DF4F270007DA6D6 /* Handlers */,
+				B6C3BA631DF4F25F007DA6D6 /* Extensions */,
+				B6C3BA621DF4F252007DA6D6 /* Utils */,
+				B6C3BA611DF4F24B007DA6D6 /* Models */,
+				B6C3BA601DF4F22D007DA6D6 /* ViewControllers */,
 				B6C3BA321DF4F19A007DA6D6 /* AppDelegate.swift */,
 				B6C3BA341DF4F19A007DA6D6 /* ViewController.swift */,
 				B6C3BA361DF4F19A007DA6D6 /* Main.storyboard */,
@@ -110,6 +154,7 @@
 		B6C3BA461DF4F19B007DA6D6 /* PIPOTests */ = {
 			isa = PBXGroup;
 			children = (
+				B6C3BA6D1DF4F442007DA6D6 /* ViewControllers */,
 				B6C3BA471DF4F19B007DA6D6 /* PIPOTests.swift */,
 				B6C3BA491DF4F19B007DA6D6 /* Info.plist */,
 			);
@@ -125,6 +170,88 @@
 			path = PIPOUITests;
 			sourceTree = "<group>";
 		};
+		B6C3BA601DF4F22D007DA6D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6D814041DF57D02009FE290 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6C3BA611DF4F24B007DA6D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3BA671DF4F3E9007DA6D6 /* User.swift */,
+				B6C3BA691DF4F3F7007DA6D6 /* Event.swift */,
+				B6D813FA1DF4FADF009FE290 /* ImageResource.swift */,
+				B6D813FC1DF50166009FE290 /* Category.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B6C3BA621DF4F252007DA6D6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B6C3BA631DF4F25F007DA6D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3BA651DF4F31B007DA6D6 /* ExtensionUIView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B6C3BA641DF4F270007DA6D6 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		B6C3BA6D1DF4F442007DA6D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6D813FE1DF502A6009FE290 /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storages;
+			sourceTree = "<group>";
+		};
+		B6D813FF1DF503E2009FE290 /* APICommunicator  */ = {
+			isa = PBXGroup;
+			children = (
+				B6D814001DF506C8009FE290 /* APICommunicatorProtocol.swift */,
+				B6D814021DF5784D009FE290 /* APICommunicator.swift */,
+			);
+			name = "APICommunicator ";
+			sourceTree = "<group>";
+		};
+		B6D814061DF650C3009FE290 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				B6D814071DF650ED009FE290 /* UserError.swift */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		B902BFE745060965FA7B2A6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				727384CAC05317E7F8856369 /* Pods_PIPO.framework */,
+				0B3213487F90B988A6116D7D /* Pods_PIPO_PIPOTests.framework */,
+				12296D1CBEB2610CB1CFF5E3 /* Pods_PIPO_PIPOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6C3BA571DF4F19B007DA6D6 /* Build configuration list for PBXNativeTarget "PIPO" */;
 			buildPhases = (
+				356E5A3CDB6EB47A0D3DAE09 /* [CP] Check Pods Manifest.lock */,
 				B6C3BA2B1DF4F19A007DA6D6 /* Sources */,
 				B6C3BA2C1DF4F19A007DA6D6 /* Frameworks */,
 				B6C3BA2D1DF4F19A007DA6D6 /* Resources */,
+				2CA71BB3380DB8622926B4C5 /* [CP] Embed Pods Frameworks */,
+				90606463D720C00BB47485E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +323,7 @@
 				TargetAttributes = {
 					B6C3BA2E1DF4F19A007DA6D6 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QGPUDM9P62;
 						ProvisioningStyle = Automatic;
 					};
 					B6C3BA421DF4F19B007DA6D6 = {
@@ -254,13 +385,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CA71BB3380DB8622926B4C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIPO/Pods-PIPO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356E5A3CDB6EB47A0D3DAE09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90606463D720C00BB47485E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PIPO/Pods-PIPO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6C3BA2B1DF4F19A007DA6D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D814011DF506C8009FE290 /* APICommunicatorProtocol.swift in Sources */,
+				B6D813FB1DF4FADF009FE290 /* ImageResource.swift in Sources */,
+				B6D814031DF5784D009FE290 /* APICommunicator.swift in Sources */,
+				B6C3BA681DF4F3E9007DA6D6 /* User.swift in Sources */,
+				B6C3BA661DF4F31B007DA6D6 /* ExtensionUIView.swift in Sources */,
+				B6D814081DF650ED009FE290 /* UserError.swift in Sources */,
 				B6C3BA351DF4F19A007DA6D6 /* ViewController.swift in Sources */,
 				B6C3BA331DF4F19A007DA6D6 /* AppDelegate.swift in Sources */,
+				B6C3BA6A1DF4F3F7007DA6D6 /* Event.swift in Sources */,
+				B6D814051DF57D02009FE290 /* LoginViewController.swift in Sources */,
+				B6D813FD1DF50166009FE290 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +598,10 @@
 		};
 		B6C3BA581DF4F19B007DA6D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18E26E36D6FA14F40ECA812 /* Pods-PIPO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGPUDM9P62;
 				INFOPLIST_FILE = PIPO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thangcao.PIPO.PIPO;
@@ -422,8 +612,10 @@
 		};
 		B6C3BA591DF4F19B007DA6D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E7FCA3F269C2F611B368E2 /* Pods-PIPO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGPUDM9P62;
 				INFOPLIST_FILE = PIPO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thangcao.PIPO.PIPO;
@@ -505,6 +697,7 @@
 				B6C3BA591DF4F19B007DA6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6C3BA5A1DF4F19B007DA6D6 /* Build configuration list for PBXNativeTarget "PIPOTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +706,7 @@
 				B6C3BA5C1DF4F19B007DA6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6C3BA5D1DF4F19B007DA6D6 /* Build configuration list for PBXNativeTarget "PIPOUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +715,7 @@
 				B6C3BA5F1DF4F19B007DA6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
